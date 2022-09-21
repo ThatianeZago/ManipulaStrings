@@ -11,7 +11,7 @@ public class ManipulaStrings {
         do{
           System.out.println(">>>>>>MENU<<<<<<");  
           System.out.println(" 1 - Tamanho String");
-          System.out.println(" 2 - ");
+          System.out.println(" 2 - Árvore de Letras");
           System.out.println(" 3 - ");
           
           
@@ -28,12 +28,11 @@ public class ManipulaStrings {
                  /*
                  int t = 
                  System.out.println("A String inserida");
-                 
                  */
-              /*case 2:
-                  ();
+               case 2:
+                  ExercicioStrings.arvoreCharAt();
                   break; 
-              case 3:
+                /*case 3:
                   ();
                   break;    
                 */  

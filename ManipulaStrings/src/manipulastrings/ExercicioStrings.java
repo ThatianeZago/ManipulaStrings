@@ -1,4 +1,3 @@
-
 package manipulastrings;
 
 
@@ -34,4 +33,11 @@ class ExercicioStrings {
     }
 
 }
+
+    static void capitalizaLetras() {
+       leStrings("Insira um texto em maiúscula");
+       System.out.println(s.toLowerCase());
+       leStrings("Insira um texto em minúscula");
+       System.out.println(s.toUpperCase());
+    }
 }
